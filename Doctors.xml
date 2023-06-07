@@ -1,0 +1,31 @@
+
+<Patients>
+    <Person>
+        <email></email>
+        <name>Doctor</name>
+        <personCode>Person</personCode>
+        <phoneNum></phoneNum>
+        <surname>Man</surname>
+    </Person>
+    <Person>
+        <email></email>
+        <name>Second</name>
+        <personCode>36511653</personCode>
+        <phoneNum></phoneNum>
+        <surname>Doctor</surname>
+    </Person>
+    <Person>
+        <email>john.medicine@cooldoc.com</email>
+        <name>John</name>
+        <personCode>880055-53535</personCode>
+        <phoneNum>+3711180</phoneNum>
+        <surname>Medicine</surname>
+    </Person>
+    <Person>
+        <email>tenno@grakatta.scoom</email>
+        <name>John</name>
+        <personCode>Da</personCode>
+        <phoneNum>2288221337</phoneNum>
+        <surname>Alpha</surname>
+    </Person>
+</Patients>

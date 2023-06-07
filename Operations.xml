@@ -1,0 +1,19 @@
+
+<Operations>
+    <Operation>
+        <operatioName>Among Us</operatioName>
+        <operatioPrice>15.0</operatioPrice>
+    </Operation>
+    <Operation>
+        <operatioName>Among us 2</operatioName>
+        <operatioPrice>17.0</operatioPrice>
+    </Operation>
+    <Operation>
+        <operatioName>Help</operatioName>
+        <operatioPrice>145.0</operatioPrice>
+    </Operation>
+    <Operation>
+        <operatioName>Spider-Man 17</operatioName>
+        <operatioPrice>245.0</operatioPrice>
+    </Operation>
+</Operations>

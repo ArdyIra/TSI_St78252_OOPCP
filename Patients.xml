@@ -1,0 +1,24 @@
+
+<Patients>
+    <Person>
+        <email>yes</email>
+        <name>A</name>
+        <personCode>cool</personCode>
+        <phoneNum>guy</phoneNum>
+        <surname>pretty</surname>
+    </Person>
+    <Person>
+        <email>this guy</email>
+        <name>Who </name>
+        <personCode>heck</personCode>
+        <phoneNum>invited</phoneNum>
+        <surname>the</surname>
+    </Person>
+    <Person>
+        <email>neredakti</email>
+        <name>Johhny</name>
+        <personCode>matj</personCode>
+        <phoneNum>svoju</phoneNum>
+        <surname>Delta</surname>
+    </Person>
+</Patients>

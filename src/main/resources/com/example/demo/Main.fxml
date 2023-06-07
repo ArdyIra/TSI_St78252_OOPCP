@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="scenePane" prefHeight="768.0" prefWidth="1024.0" style="-fx-background-color: #192841;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.MainController">
+   <children>
+      <ImageView fitHeight="788.0" fitWidth="1024.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../GrehnGrad.jpg" />
+         </image></ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="298.0" layoutX="82.0" layoutY="303.0" opacity="0.25" stroke="BLACK" strokeType="INSIDE" width="337.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.15165876777251186">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.05739999935030937" green="0.49317142367362976" blue="0.8199999928474426" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.8849049806594849" green="0.9342105388641357" blue="0.6876827478408813" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Button fx:id="appointmentsButton" layoutX="92.0" layoutY="338.0" mnemonicParsing="false" onAction="#switchToAppointments" prefHeight="25.0" prefWidth="313.0" text="Appointments" />
+      <Button fx:id="patientsButton" layoutX="92.0" layoutY="373.0" mnemonicParsing="false" onAction="#switchToPatients" prefHeight="25.0" prefWidth="313.0" text="Patients" />
+      <Button fx:id="doctorsButton" layoutX="92.0" layoutY="428.0" mnemonicParsing="false" onAction="#switchToDoctors" prefHeight="25.0" prefWidth="313.0" text="Doctors" />
+      <Button fx:id="operationsButton" layoutX="92.0" layoutY="465.0" mnemonicParsing="false" onAction="#switchToOperations" prefHeight="25.0" prefWidth="313.0" text="Operations" />
+      <Button fx:id="exitButton" layoutX="92.0" layoutY="552.0" mnemonicParsing="false" onAction="#logout" prefHeight="25.0" prefWidth="313.0" text="Exit" textFill="RED" />
+      <Text fill="#00fbff" layoutX="50.0" layoutY="284.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="2.0" text="What will we do today?" wrappingWidth="396.13671875">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="385.0" fitWidth="446.0" layoutX="578.0" layoutY="403.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@../../../HappyDoctors.png" />
+         </image>
+         <rotationAxis>
+            <Point3D y="1.0" />
+         </rotationAxis>
+      </ImageView>
+      <ImageView fitHeight="189.0" fitWidth="912.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Title.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
